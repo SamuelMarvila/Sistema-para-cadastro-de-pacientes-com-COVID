@@ -3,7 +3,6 @@
 #include <string.h>
 #include <time.h>
 #include "clearscr.h"
-#include "pausecmd.h"
 #include <conio.h>//para utilizar o getch()
 #include <ctype.h>//para utilizar o isdigit()
 
@@ -524,7 +523,7 @@ void salvar(PESSOA paciente){
     else{
     fprintf(salvarPaciente,"\n----------------------- \n");
 
-    fprintf(salvarPaciente,strcat(paciente.nome,"\n"));
+    fprintf(salvarPaciente,strcat("\n",paciente.nome));
 
     fprintf(salvarPaciente,strcat(paciente.cpf,"\n"));
 

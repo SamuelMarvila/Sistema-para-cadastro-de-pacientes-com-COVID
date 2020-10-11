@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1601742038 source:c:\users\samue\documents\github\projeto_pim\clearscr.c
+	"clearscr.h"
+	<stdlib.h>
+
+1601680385 c:\users\samue\documents\github\projeto_pim\clearscr.h
+
+1602388864 source:c:\users\samue\documents\github\projeto_pim\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"clearscr.h"
+	"pausecmd.h"
+	<conio.h>
+	<ctype.h>
+
+1601680385 source:c:\users\samue\documents\github\projeto_pim\pausecmd.c
+	"pausecmd.h"
+	<stdlib.h>
+
+1601680385 c:\users\samue\documents\github\projeto_pim\pausecmd.h
+
+1601742038 source:c:\users\samue\documents\github\projeto_pim\projeto_pim\clearscr.c
+	"clearscr.h"
+	<stdlib.h>
+
+1601680385 c:\users\samue\documents\github\projeto_pim\projeto_pim\clearscr.h
+
+1602427043 source:c:\users\samue\documents\github\projeto_pim\projeto_pim\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"clearscr.h"
+	"pausecmd.h"
+	<conio.h>
+	<ctype.h>
+
+1601680385 c:\users\samue\documents\github\projeto_pim\projeto_pim\pausecmd.h
+

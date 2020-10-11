@@ -522,30 +522,40 @@ void salvar(PESSOA paciente){
     }
     else{
     fprintf(salvarPaciente,"\n----------------------- \n");
+    fprintf(salvarPaciente,"NOME: ");
+    fprintf(salvarPaciente,strcat(paciente.nome,"\n"));
 
-    fprintf(salvarPaciente,strcat("\n",paciente.nome));
-
+ fprintf(salvarPaciente,"CPF: ");
     fprintf(salvarPaciente,strcat(paciente.cpf,"\n"));
 
+ fprintf(salvarPaciente,"TELEFONE:  ");
     fprintf(salvarPaciente,strcat(paciente.telefone,"\n"));
 
     fprintf(salvarPaciente,"\n ENDERECO: \n");
 
+ fprintf(salvarPaciente,"RUA: ");
     fprintf(salvarPaciente,strcat(paciente.rua,"\n"));
 
+ fprintf(salvarPaciente,"N° CASA: ");
     char numcasa[10];
     sprintf(numcasa, "%i", paciente.numeroCasa);
     fprintf(salvarPaciente,strcat(numcasa,"\n"));
 
+ fprintf(salvarPaciente,"BAIRRO: ");
     fprintf(salvarPaciente,strcat(paciente.bairro,"\n"));
 
+ fprintf(salvarPaciente,"CIDADE: ");
     fprintf(salvarPaciente,strcat(paciente.cidade,"\n"));
 
+ fprintf(salvarPaciente,"ESTADO: ");
     fprintf(salvarPaciente,strcat(paciente.estado,"\n"));
 
+ fprintf(salvarPaciente,"CEP: ");
     char numCep[10];
     sprintf(numCep, "%i", paciente.cep);
     fprintf(salvarPaciente,strcat(numCep,"\n"));
+
+ fprintf(salvarPaciente,"DATA DE NASCIMENTO: ");
 
     char numDia[10];
     sprintf(numDia, "%i", paciente.diaNasc);
@@ -559,20 +569,21 @@ void salvar(PESSOA paciente){
     sprintf(numAno, "%i", paciente.anoNasc);
     fprintf(salvarPaciente,strcat(numAno,"\n"));
 
+ fprintf(salvarPaciente,"IDADE: ");
       char numIdade[10];
     sprintf(numIdade, "%i", paciente.idade);
     fprintf(salvarPaciente,strcat(numIdade,"\n"));
 
+ fprintf(salvarPaciente,"EMAIL: ");
     fprintf(salvarPaciente,strcat(paciente.email,"\n"));
 
+ fprintf(salvarPaciente,"DATA DO DIAGNOSTICO: ");
      char diaDiag[10];
     sprintf(diaDiag, "%i", paciente.diaDiag);
     fprintf(salvarPaciente,strcat(diaDiag," /"));
-
     char mesDiag[10];
     sprintf(mesDiag, "%i", paciente.mesDiag);
     fprintf(salvarPaciente,strcat(mesDiag," /"));
-
      char anoDiag[10];
     sprintf(anoDiag, "%i", paciente.anoDiag);
     fprintf(salvarPaciente,strcat(anoDiag,"\n"));
@@ -599,11 +610,11 @@ void salvarGRisco(PESSOA paciente){
     }
     else{
     fprintf(salvarGRisco,"\n----------------------- \n");
-
+    fprintf(salvarGRisco,"IDADE: ");
      char numIdade[10];
     sprintf(numIdade, "%i", paciente.idade);
     fprintf(salvarGRisco,strcat(numIdade,"\n"));
-
+    fprintf(salvarGRisco,"CEP: ");
     char numCep[10];
     sprintf(numCep, "%i", paciente.cep);
     fprintf(salvarGRisco,numCep);

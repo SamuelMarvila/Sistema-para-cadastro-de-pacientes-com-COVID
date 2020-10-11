@@ -45,3 +45,12 @@
 
 1602432122 c:\users\samue\desktop\pim_iv\clearscr.h
 
+1602433225 source:c:\users\samue\desktop\pim_iv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"clearscr.h"
+	<conio.h>
+	<ctype.h>
+

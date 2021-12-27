@@ -1,4 +1,5 @@
-# projeto_PIM
+# Sistema para cadastro de pacientes com COVID
+
 
 PROJETO
 
